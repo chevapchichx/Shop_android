@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:background="#D57884D5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ItemActivity">
+
+    <ImageView
+        android:id="@+id/item_image"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:paddingHorizontal="20dp"
+        android:layout_marginTop="60dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/minions1" />
+
+    <TextView
+        android:id="@+id/item_list_title_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingHorizontal="30dp"
+        android:paddingVertical="10dp"
+        android:textColor="#EDE6AE"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/item_list_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"
+        android:gravity="center"
+        android:textColor="#EDE6AE"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/item_list_button_buy"
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Купить"
+        android:backgroundTint="#5563BC"
+        android:textColor="#ADB6FF"/>
+
+</LinearLayout>
